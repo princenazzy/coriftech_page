@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coriftech Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    /* Sidebar */
+    .sidebar {
+      width: 250px;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #f8f9fa;
+      padding: 20px 10px;
+      overflow-y: auto;
+    }
+
+    /* Main content spacing */
+    .main-content {
+      margin-left: 250px;
+      padding: 20px;
+    }
+
+    /* Header and pricing styles */
+    .course-header {
+      background-color: #0056b3;
+      color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+    }
+    .course-price {
+      background-color: #f8f9fa;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    /* Accordion styles */
+    .accordion-item {
+      border: none;
+      border-bottom: 1px solid #ddd;
+    }
+
+    /* Related courses */
+    .card-img-top {
+      height: 150px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <!-- Sidebar -->
+  <nav class="sidebar border-end">
+    <img src="./img/coriftech logo (1).jpg" alt="">
+    <ul class="nav flex-column mt-4">
+      <li class="nav-item mb-3">
+        <a class="nav-link text-dark d-flex align-items-center" href="#">
+           <!-- <img src="./img/dashboard-square-01.png" alt="">  -->
+          <i class="bi bi-house-door me-2"></i> Dashboard</a>
+      </li>
+      <li class="nav-item mb-3">
+        <a class="nav-link text-dark d-flex align-items-center" href="#">  
+          <!-- <img src="./img/courses.png" alt="">  -->
+          <i class="bi bi-book me-2"></i>My Courses</a>
+      </li>
+      <li class="nav-item mb-3">
+        <a class="nav-link text-dark d-flex align-items-center" href="#"> 
+          <!-- <img src="./img/Assignments.png" alt="">  -->
+          <i class="bi bi-person me-2"></i> Assignments</a>
+      </li>
+      <li class="nav-item mb-3">
+        <a class="nav-link text-dark d-flex align-items-center" href="#"> 
+          <!-- <img src="./img/Accomplishment.png" alt="">  -->
+          <i class="bi bi-gear me-2"></i> Accomplishment</a>
+      </li>
+      <li class="nav-item mb-3">
+        <a class="nav-link text-dark d-flex align-items-center" href="#"> 
+          <!-- <img src="./img/webinar.png" alt="">  -->
+          <i class="bi bi-gear me-2"></i> Webinars</a>
+      </li>
+      <li class="nav-item mb-5">
+        <a class="nav-link text-primary d-flex align-items-center" href="#"> 
+          <!-- <img src="./img/all courses.png" alt=""> -->
+           <i class="bi bi-gear me-2"></i> All courses</a>
+      </li>
+      <li class="nav-item mb-3">
+        <a class="nav-link text-dark d-flex align-items-center" href="#">
+           <!-- <img src="./img/support.png" alt=""> -->
+           <i class="bi bi-gear me-2"></i> Support</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark d-flex align-items-center" href="#"> 
+          <!-- <img src="./img/logout-03.png" alt="">  -->
+          <i class="bi bi-box-arrow-right me-2"></i> Logout</a>
+      </li>
+    </ul>
+  </nav>
+
+  
+  
+  
+ <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+
+  <style>
+    .custom-search-bar {
+      display: flex;
+      /* align-items: center; */
+      background-color: #f8fcfd;
+      border: 1px solid #ddd;
+      border-radius: 25px;
+      padding: 5px 15px;
+      width: 50%;
+      max-width: 600px;
+    }
+    .custom-search-bar i {
+      color: #0056b3;
+      font-size: 18px;
+      margin-right: 0px;
+    }
+    .custom-search-bar input {
+      border: none;
+      background: transparent;
+      outline: none;
+      flex: 1;
+      font-size: 16px;
+      color: #333;
+    }
+    .custom-search-bar input::placeholder {
+      color: #999;
+    }
+  </style>
+
+
+  <div class="container mt-5">
+    <div class="d-flex justify-content-center">
+      <!-- Search Bar -->
+      <div class="custom-search-bar">
+        <i class="bi bi-search"></i>
+        <input type="text" placeholder="Search for courses">
+      </div>
+    </div>
+  </div>
+
+
+
+  <div style="width: 35%; padding-top: 50px;"><img src="./img/English.png" alt="" style="padding-right: 40px;"><img src="./img/f7_cart.png" alt="" style="padding-right: 40px;"><img src="./img/Bell.png" alt="" style="padding-right: 40px;"><img src="./img/MI.png" alt=""> </div>
+
+ </div>
+
+
+  <!-- Main Content -->
+  <div class="main-content">
+
+    <p><span style="color: blue;">All courses ></span> Artificial intelligence Language and</p>
+    <!-- Course Header -->
+    <div class="course-header mb-4">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h2>User Interface / User Experience and Digital Products</h2>
+          <p>Bridge the gap between Design & Development! Break down detailed designs and bring them to life with Material-UI/React.</p>
+          <img src="./img/Frame 1216401079 (1).png" alt=""> <br>
+
+          <label for="" style="padding-right: 10px;">Last updated 03/2022</label>   <label for="">200,000 Students enrolled</label> <button style="background-color: orangered; color: white;">3.5 ⭐⭐⭐</button>
+        </div>
+        <div class="col-md-4 position-absolute">
+          <div class="card" style="width: 18rem; margin-left: 700px; margin-top: 200px; height: 360px; position: relative">
+            <img style="height: 200px;" src="./img/Group 35562.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div style="display: flex;">
+                <h3 style="padding-right: 30px;" class="card-text">₦50,000</h3>  <label  for="" style="padding-top: 4px;"><del>₦70,000</del></label>
+              </div>
+
+              <button style="width: 100%; background-color: blue; color: white; border-radius: 6px; padding: 4px; margin-bottom: 15px; border-color: blue; border: 1px solid;">Buy course</button>
+              <button style="width: 100%; background-color: white; color: blue; border-radius: 6px; padding: 4px; border-color: blue; border: 1px solid;">Add to Cart</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="border: 1px solid; border-color: #0056b3; width: 530px; margin-left: 10px; margin-top: 50px;" class="row mb-4">
+     
+      <div style="padding-left: 40px; padding-top: 40px; padding-bottom: 40px; width: 500px;" class="col-lg-8">
+        <h3>Course Description</h3>
+        <p>Bridge the gap between Design & Development! Break down detailed designs and bring them to life with Material-UI/React. Refine UX/UI design intuition and see concepts in action Ensure cross-browser support with your styles in Material-UI Deploy   production Material-UI/React JS applications Bridge the gap between Design & Development! Break down detailed designs and bring them to life with Material-UI/React. Refine UX/UI design intuition and see concepts in action Ensure cross-browser support with your styles in Material-UI Deploy   production Material-UI/React JS applications</p>
+      </div>
+    </div>
+
+    <!-- Course Content Accordion -->
+    <div style="border: 1px solid; border-color: #0056b3; width: 530px; margin-left: 8px;" class="accordion mb-4" id="courseContentAccordion">
+      <div style="padding: 40px;" class="accordion-item">
+        <h2 class="accordion-header" id="contentHeading">
+         <h3>Course Content</h3>
+        </h2>
+        <div id="contentBody" class="accordion-collapse collapse show" aria-labelledby="contentHeading">
+          <div class="accordion-body">
+           <img src="./img/course content.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div style="border: 1px solid; border-color: #0056b3; width: 530px; margin-left: 8px;" class="mb-4">
+      <div style="padding: 40px;">
+        <h3>What You Will Learn</h3>
+      <img src="./img/tick1.png" alt="">
+      </div>
+    </div>
+    <div style="border: 1px solid; border-color: #0056b3; width: 530px; margin-left: 8px;" class="mb-4">
+      <div style="padding: 40px;">
+        <h3>Skills You Will Learn</h3>
+      <img src="./img/tick2.png" alt="">
+      </div>
+    </div>
+
+    <!-- Certificate Section -->
+    <div style="border: 1px solid; border-color: #0056b3; width: 530px; margin-left: 8px;" class="mb-4">
+      <div style="padding: 40px;">
+        <h3 style="margin-bottom: 20px; margin-top: 40px;">Certificate to Earn</h3>
+      <img src="./img/certificate.png" alt="Certificate" class="img-fluid">
+      </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="mb-4">
+      <h3 style="margin-bottom: 20px; margin-top: 50px;">What Our Students Say</h3>
+      <img src="./img/Frame 1216401115.png" alt="">
+    </div>
+
+    <!-- Related Courses -->
+    <div style="margin-top: 80px;">
+      <h3 style="margin-bottom: 25px;">Related Courses</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div style="width: 400px;" class="card">
+            <img src="./img/Rectangle 2346.png" class="card-img-top" alt="Course Image">
+            <div class="card-body">
+              <div style="display: flex;">
+                <h5 style="margin-right: 30px;" class="card-title">UIUX and Digital Products</h5> <p>NGN 500,000</p>
+              </div>
+              <p class="card-text">This course is aimed at training students from scratch till they become expert in thee field  </p>
+              <img src="./img/people comment.png" alt=""> <br> <br>
+              
+                <a href="#" style="width: 150px; margin-right: 25px;" class="btn btn-primary btn-sm">Add to cart</a>
+                <a href="#" style="border-color: #0056b3; color: #0056b3; width: 150px;" class="btn btn-light btn-sm">Learn more</a>
+              
+            </div>
+          </div>
+        </div>
+       
+        <div class="col-md-4">
+          <div style="width: 400px; margin-left: 80px;" class="card">
+            <img src="./img/Rectangle 2346.png" class="card-img-top" alt="Course Image">
+            <div class="card-body">
+              <div style="display: flex;">
+                <h5 style="margin-right: 30px;" class="card-title">UIUX and Digital Products</h5> <p>NGN 500,000</p>
+              </div>
+              <p class="card-text">This course is aimed at training students from scratch till they become expert in thee field  </p>
+              <img src="./img/people comment.png" alt=""> <br> <br>
+              
+                <a href="#" style="width: 150px; margin-right: 25px;" class="btn btn-primary btn-sm">Add to cart</a>
+                <a href="#" style="border-color: #0056b3; color: #0056b3; width: 150px;" class="btn btn-light btn-sm">Learn more</a>
+              
+            </div>
+          </div>
+        </div>
+       
+        <div class="col-md-4">
+          <div style="width: 400px; margin-left: 160px;" class="card">
+            <img src="./img/Rectangle 2346.png" class="card-img-top" alt="Course Image">
+            <div class="card-body">
+              <div style="display: flex;">
+                <h5 style="margin-right: 30px;" class="card-title">UIUX and Digital Products</h5> <p>NGN 500,000</p>
+              </div>
+              <p class="card-text">This course is aimed at training students from scratch till they become expert in thee field  </p>
+              <img src="./img/people comment.png" alt=""> <br> <br>
+              
+                <a href="#" style="width: 150px; margin-right: 25px;" class="btn btn-primary btn-sm">Add to cart</a>
+                <a href="#" style="border-color: #0056b3; color: #0056b3; width: 150px;" class="btn btn-light btn-sm">Learn more</a>
+              
+            </div>
+          </div>
+        </div>
+       
+       
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
